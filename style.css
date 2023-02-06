@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+
+}
+@font-face {
+    font-family: "Mad-font";
+    src: url(dist/fonts/Raleway-VariableFont_wght.ttf);
+}
+header{
+    height: 10%;
+    background: rgb(255, 83, 141);
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+}
+header .menu{
+    display: flex;
+    gap: 20px;
+}
+header .menu a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+}
+header .menu a:hover{
+    color: rgb(133, 80, 98);
+}
+header > .maz{
+    font-size: larger;
+    font-size: large;
+}
+.accueil .left{
+    color: white;
+    display: block;
+    padding: .5rem 3rem 2rem 3rem;
+
+}
+.accueil .left > h5{
+    margin-bottom: 1rem;
+}
+.accueil .left > h4{
+    font-size: 2rem;
+    font-family: "Mad-font";
+    text-align: center;
+    color: white;
+}
+.accueil .left > a{
+    text-decoration: none;
+    padding: 4px 15px;
+    color: white;
+    font-size: large;
+    background-color: rgba(207, 104, 35, 0.836);
+
+}
+/* .accueil .right{
+} */
+.accueil .right img{
+    height: 30rem;
+    width: 35rem;
+}
+.accueil{
+    padding: 4rem;
+    background: linear-gradient(rgb(255, 181, 133),rgb(255, 83, 141));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.manicure{
+    display: block;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.manicure .manicure-title{
+    text-align: center;
+
+}
+.manicure .manicure-title-scn{
+    text-align: center;
+}
+.card-selection{
+    background: 3px solid yellow;
+    display: flex;
+}
+.card-product{
+    margin-left: auto;
+    width: 30%;
+    height: 20rem;
+    position: relative;
+    margin-right: auto;
+    background-color: rgb(255, 83, 141);
+}
+.card-product .com-button a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: rgba(207, 104, 35, 0.836) ;
+}
+.card-product img{
+    height: 80%;
+    width: 100%;
+}
+
+.pedicure .pedicure-title{
+    text-align: center;
+}
+.pedicure .pedicure-title-scn{
+    text-align: center;
+}
+.pedicure .selection{
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    display: flex;
+    position: relative;
+    margin-right: auto;
+    background-color: rgb(255, 83, 141);
+
+}
+.pedicure .selection .retouch{
+    margin-left: auto;
+    width: 30%;
+    height: 20rem;
+    position: relative;
+    margin-right: auto;
+    background-color: rgb(255, 83, 141);
+}
+.pedicure .selection .retouch img{
+    height: 80%;
+    width: 100%;
+} 
+
+/* .retouch .ret-options{
+
+} */
+.retouch .ret-options a{
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid violet;
+    align-content: center;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: rgba(207, 104, 35, 0.836) ;
+}
+.nails-touchup{
+    padding-bottom: 4rem;
+}
+.nails-touchup .nails-title{
+    text-align: center;
+}
+.nails-touchup .nails-title-scn{
+    text-align: center;
+}
+.nails-touchup .selection{
+    display: flex;
+}
+.nails-touchup .selection .retouch{
+    margin-left: auto;
+    width: 30%;
+    height: 20rem;
+    position: relative;
+    margin-right: auto;
+    background-color: rgb(255, 83, 141);
+}
+.nails-touchup .selection .retouch img{
+    height: 80%;
+    width: 100%;
+}
+.nails-touchup .selection .retouch a{
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: rgba(207, 104, 35, 0.836) ;
+}
