@@ -4,10 +4,7 @@ body{
     box-sizing: border-box;
 
 }
-@font-face {
-    font-family: "Madfont";
-    src: url(dist/fonts/ShadowsIntoLight-Regular.ttf);
-}
+
 @font-face {
     font-family: "Mad-font";
     src: url(dist/fonts/Raleway-VariableFont_wght.ttf);
@@ -107,6 +104,8 @@ header > .maz h1 span{
 }
 span{
     font-style: normal;
+    color: rgb(0, 17, 255);
+    font-style: italic;
 }
 .manicure{
     display: block;
@@ -133,6 +132,7 @@ font-style: normal;
     color: rgb(255, 83, 141);
     font-style: normal;
 }
+
 .card-selection{
     display: grid;
     grid-template-columns: repeat( auto-fill, minmax(400px, 1fr) );
@@ -205,11 +205,7 @@ font-style: normal;
     height: 80%;
     width: 100%;
 } 
-span{
-    color: rgb(0, 17, 255);
-    font-style: italic;
 
-}
 h2{
     
     font-style: oblique;
@@ -290,11 +286,6 @@ h2{
 
 
 
-
-
-
-
-
 *{
     box-sizing: border-box;
 }
@@ -348,7 +339,7 @@ h2{
     display: flex;
 }
 .contact a{
-    border: 3px solid rebeccapurple;
+    border: 3px solid rgb(201, 105, 172);
     text-decoration: none;
     color: black;
 }
@@ -392,4 +383,122 @@ form button{
         text-transform: uppercase;
         font-size: 1.6rem;
     }
+}
+.list-div {
+	display: flex;
+	flex-direction: column;
+	background-color: #4f4;
+	padding: 20px;
+}
+.list-div > p {
+	background-color: #fff;
+	padding: 10px;
+	font-size: 1.8rem;
+	text-align: center;
+
+
+
+}
+body {
+	background-color: #DDF;
+}
+
+.card {
+	background-color: #fff;
+	margin: 20px 30px;
+	box-shadow: 3px 3px 3px #BBB;
+}
+.coines > .nar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: rgb(230, 57, 152);
+	color: #fff;
+}
+.coines .nar h2 {
+	margin: 5px 20px;
+	font-size: 30px;
+}
+.coines .nar img {
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+	margin-top: 10px;
+	transition: all 1s;
+}
+.card .content {
+	padding: 10px;
+	overflow: hidden;
+	height: 200px;
+	transition: all 1s;
+}
+
+.coines.coins .content {
+	margin: 0;
+	height: 0;
+	padding: 0;
+}
+.coines .nav img.rotated {
+	transform: rotate(180deg);
+
+
+}
+.list-div {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(231, 106, 183);
+	padding: 20px;
+}
+.list-div > p {
+	background-color: #fff;
+	padding: 10px;
+	font-size: 1.8rem;
+	text-align: center;
+
+
+
+}
+body {
+	background-color: #DDF;
+}
+
+.card {
+	background-color: #fff;
+	margin: 20px 30px;
+	box-shadow: 3px 3px 3px #BBB;
+}
+.coines > .nar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: rgb(207, 37, 142);
+	color: #fff;
+}
+.coines .nar h2 {
+	margin: 5px 20px;
+	font-size: 30px;
+}
+.coines .nar img {
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+	margin-top: 10px;
+	transition: all 1s;
+}
+.card .content {
+	padding: 10px;
+	overflow: hidden;
+	height: 200px;
+	transition: all 1s;
+}
+
+.coines.coins .content {
+	margin: 0;
+	height: 0;
+	padding: 0;
+}
+.coins .naz img.rotated {
+	transform: rotate(180deg);
+
+
 }
